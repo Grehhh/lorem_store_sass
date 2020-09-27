@@ -16,7 +16,7 @@ nav {
 
     h1 {
         text-transform: uppercase;
-        font-size: 1.1em;
+        font-size: $navTitleSize;
         letter-spacing: 0.1em;
         display: inline;
         font-family: $navFonts;
@@ -71,6 +71,12 @@ nav {
 
 #cartModal {
     width: 96%;
+
+    button {
+        background-color: $black;
+        color: $white;
+        border: none;
+    }
 
     .total {
         font-weight: bold;

@@ -54,6 +54,11 @@ nav a:hover {
 #cartModal {
   width: 96%;
 }
+#cartModal button {
+  background-color: black;
+  color: white;
+  border: none;
+}
 #cartModal .total {
   font-weight: bold;
   font-size: 1.2em;
